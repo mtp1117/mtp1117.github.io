@@ -1,0 +1,39 @@
+
+
+.main-content {
+	font: Nexa, sans-serif;
+	padding-top: 15px;
+	margin: 45px;
+}
+
+.main-content {
+	display: flex;
+}
+
+h1 {
+	font-size: 1.75rem;
+	color: #0B213C;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	float:left;
+}
+
+h2 {
+	font-size: 1.25rem;
+	font-weight: 300;
+	color: #0B213C;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.text {
+	float: left;
+}
+
+.container2 {
+	width:50%;
+    height:auto;
+	padding-top:10px;
+	padding-left: 30px;
+}

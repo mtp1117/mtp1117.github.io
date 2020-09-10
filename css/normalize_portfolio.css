@@ -1,0 +1,19 @@
+.main {
+	font: Nexa, sans-serif;
+	padding-top: 15px;
+  margin: 45px;
+  align-items: center;
+}
+
+
+.stars {
+  padding-top: 15px; 
+  align-content: center;
+}
+
+.folio-examples {
+  background-color: #4DBFF7;
+  vertical-align: center;
+  padding-top: -40px;
+  max-height: cover;
+}
