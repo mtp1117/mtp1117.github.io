@@ -1,10 +1,7 @@
-
-
 .main-content {
 	font: Nexa, sans-serif;
-	padding-top: 30px;
+	font: 'Montserrat', sans-serif;
 	margin: 45px;
-	
 }
 
 h2 {
@@ -23,45 +20,52 @@ h1 {
 	text-transform: uppercase;
 }
 
-.horizontal-example {
-/*	display: none;  */
-	background-color: #E5E5E5;
+h3 {
+	font-size: 1.3125rem;
+	font-weight: 300;
 	color: #0B213C;
-	width: 600px;
-	height: 300px;
-}
-
-.vertical-example {
-	display: none;
-	background-color: #E5E5E5;
-	color: #0B213C;
-	width: 400px;
-	height: 500px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 0;
 }
 
 h4 {
 	color: #0B213C;
-	font-size: .85rem;
+	font-size: 1.0rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 }
 
-
-
+button {
+	font-size: 1.0rem;
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	box-shadow: 3px 3px #0B213C;
+	padding-left: 15px;
+	color:  #0B213C;
+	background-color: #E5E5E5;
+	width: 250px;
+	height: 40px;
+	border-radius: 3px;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 10px;
+}
 
 .button2 {
 	font-size: 1.3125rem;
 	font-family: 'Montserrat', sans-serif;
 	border: none;
-	box-shadow: 3px 3px #0B213C;
-	margin-left: 45px;
+	box-shadow: 3px 3px #4DBFF7;
+	margin-left: 00px;
 	color:white;
-	background-color: #4DBFF7;
+	background-color:#0B213C;
 	width: 185px;
 	height: 40px;
 	border-radius: 3px;
 	cursor: pointer;
-
 }
 
 .note_tab {
@@ -73,3 +77,23 @@ h4 {
 	font-size: 1.25rem;
 	height: 35px;
 }
+
+textarea {
+	font-size: 1.0rem;
+	font-family: 'Montserrat', sans-serif;
+	color:  #0B213C;
+	font-weight: 300;
+}
+
+.info_request {
+	padding: 40px;
+	color: #0B213C;
+	font-size: 1.0rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.colored {
+	background-color: #4DBFF7;
+	color: white;
+	}
