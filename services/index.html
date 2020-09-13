@@ -33,29 +33,51 @@
 		<h2> REQUEST FORM </h2>
 		<h1>CLICK ON SERVICES OF INTEREST: </h1>
 
-<div class="graphics">
+<form action="#" method="POST" class="graphics">
+	<!-- ideally we'd have something like FormKeep for the form action to store user submissions -->
 	<h3>GRAPHIC DESIGN</h3>
-	<button id="prvo">BANNERS</button>
-	<button id="prvo">BOOKS & MAGAZINES</button>
-	<button id="prvo">BRANDING</button>
-	<button id="prvo">BROCHURES</button>
-	<button id="prvo">BUSINESS CARDS</button>
-	<button id="prvo">CASE STUDIES</button>
-	<button id="prvo">DIGITAL ADS</button>
-	<button id="prvo">FLYERS & SELL SHEETS</button>
-	<button id="prvo">INFOGRAPHICS</button>
-	<button id="prvo">LOGO/BRAND GUIDES</button>
-	<button id="prvo">MAILERS</button>
-	<button id="prvo">MARKETING MATERIAL</button>
-	<button id="prvo">PACKAGING & LABELS</button>
-	<button id="prvo">PACKAGING DESIGN</button>
-	<button id="prvo">POSTCARDS</button>
-	<button id="prvo">PRESENTATIONS</button>
-	<button id="prvo">PRODUCT CATALOGS</button>
-	<button id="prvo">SALES LITERATURE</button>
-	<button id="prvo">SOCIAL MEDIA CONTENT</button>
-	<button id="prvo">TRADE SHOW DISPLAYS</button>
-</div>
+	<input type="checkbox" name="graphic-design[]" value="banners" id="graphic-design-banners" />
+	<label for="graphic-design-banners">BANNERS</label>
+	<input type="checkbox" name="graphic-design[]" value="books" id="graphic-design-books" />
+	<label for="graphic-design-books">BOOKS & MAGAZINES</label>
+	<input type="checkbox" name="graphic-design[]" value="branding" id="graphic-design-branding" />
+	<label for="graphic-design-branding">BRANDING</label>
+	<input type="checkbox" name="graphic-design[]" value="brochures" id="graphic-design-brochures" />
+	<label for="graphic-design-brochures">BROCHURES</label>
+	<input type="checkbox" name="graphic-design[]" value="business" id="graphic-design-business" />
+	<label for="graphic-design-business">BUSINESS CARDS</label>
+	<input type="checkbox" name="graphic-design[]" value="case" id="graphic-design-case" />
+	<label for="graphic-design-case">CASE STUDIES</label>
+	<input type="checkbox" name="graphic-design[]" value="digital" id="graphic-design-digital" />
+	<label for="graphic-design-digital">DIGITAL ADS</label>
+	<input type="checkbox" name="graphic-design[]" value="flyers" id="graphic-design-flyers" />
+	<label for="graphic-design-flyers">FLYERS & SELL SHEETS</label>
+	<input type="checkbox" name="graphic-design[]" value="infographics" id="graphic-design-infographics" />
+	<label for="graphic-design-infographics">INFOGRAPHICS</label>
+	<input type="checkbox" name="graphic-design[]" value="logo" id="graphic-design-logo" />
+	<label for="graphic-design-logo">LOGO/BRAND GUIDES</label>
+	<input type="checkbox" name="graphic-design[]" value="mailers" id="graphic-design-mailers" />
+	<label for="graphic-design-mailers">MAILERS</label>
+	<input type="checkbox" name="graphic-design[]" value="marketing" id="graphic-design-marketing" />
+	<label for="graphic-design-marketing">MARKETING MATERIAL</label>
+	<input type="checkbox" name="graphic-design[]" value="labels" id="graphic-design-labels" />
+	<label for="graphic-design-labels">PACKAGING & LABELS</label>
+	<input type="checkbox" name="graphic-design[]" value="packaging" id="graphic-design-packaging" />
+	<label for="graphic-design-packaging">PACKAGING DESIGN</label>
+	<input type="checkbox" name="graphic-design[]" value="postcards" id="graphic-design-postcards" />
+	<label for="graphic-design-postcards">POSTCARDS</label>
+	<input type="checkbox" name="graphic-design[]" value="presentations" id="graphic-design-presentations" />
+	<label for="graphic-design-presentations">PRESENTATIONS</label>
+	<input type="checkbox" name="graphic-design[]" value="product" id="graphic-design-product" />
+	<label for="graphic-design-product">PRODUCT CATALOGS</label>
+	<input type="checkbox" name="graphic-design[]" value="sales" id="graphic-design-sales" />
+	<label for="graphic-design-sales">SALES LITERATURE</label>
+	<input type="checkbox" name="graphic-design[]" value="social" id="graphic-design-social" />
+	<label for="graphic-design-social">SOCIAL MEDIA CONTENT</label>
+	<input type="checkbox" name="graphic-design[]" value="trade" id="graphic-design-trade" />
+	<label for="graphic-design-trade">TRADE SHOW DISPLAYS</label>
+	<input type="submit" />
+</form>
 
 <div class="WEBSITE">
 	<h3>WEBSITE</h3>
@@ -80,6 +102,6 @@
 </div>
 </div>
 <script src= "/js/script_services.js">
-
+</script>
 </body>
 </html>
