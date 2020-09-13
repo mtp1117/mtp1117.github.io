@@ -1,12 +1,12 @@
-
-
 .main-content {
 	font: Nexa, sans-serif;
 	padding-top: 30px;
+	display: flex;
 }
 
-
-
+.row {
+	float: left;
+}
 
 h2 {
 	font-size: 1.3125rem;
@@ -24,38 +24,67 @@ h1 {
 	font-weight: 600;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
+	margin: 0 0 20px 0;
 }
 
-button {
-	font-size: 1.3125rem;
+.slide_button_1 {
+	font-size: 1.25rem;
 	font-family: 'Montserrat', sans-serif;
-	border: none;
+    display: inline-block;
+	background-color:#4DBFF7;
 	box-shadow: 3px 3px #0B213C;
+	padding: 12px 20px;
 	margin-left: 45px;
+	text-decoration: none;
 	color:white;
-	background-color: #4DBFF7;
-	width: 205px;
-	height: 40px;
+	height: 45px;
 	border-radius: 3px;
 	cursor: pointer;
+	position: relative;
+	text-align: center;
 }
-.list {
+
+.list_main {
+	max-width: 100%;
 	list-style-type: none;
 	font-size: 1.125rem;
 	font-family: 'Montserrat', sans-serif;
 	font-style: 300;
 	color: #0B213C;
-	padding-top: 50px;
+	padding-top: 30px;
 	float: left;
+	padding-left: 45px;
 	column-count: 2;
-	line-height: 130%;
+	line-height: 37px;
+	display: block;
+	float: left;
+}
+
+
+.right {
+	padding: 0px 0px 00px 50px;
+	display: flex;
 }
 
 .laptop {
-	max-width: 40%;
+	float: right;
+	width: 80%;
+}
+@media all and (min-width: 150px){
+	#laptop {display:none;}
+}
+
+.child {
+	width: 50%; 
+}
+
+#mobile_small {
+	width: 100px;
 	height: auto;
-	vertical-align: bottom;
-	padding-top: -20px;
+}
+
+@media all and (max-width: 150px){
+	#mobile_small {display:none;}
 }
 
 .note_tab {
@@ -65,12 +94,30 @@ button {
 	padding-left: 30px;
 	padding-top: 10px;
 	text-align: center;
-	vertical-align: middle;
 	font-size: 1.25rem;
-	height: 40px;
+	height: 60px;
 }
+
 .footer {
+	padding-top: 10px;
+	display: flex;
 	background-color: #0B213C;
-	display: grid;
-	grid-template-columns:repeat(auto-fit, minmax(200px, 12fr));
 }
+
+.bottom_logos {
+	display:inline-flex;
+	align-content: stretch;
+	justify-content: space-between;
+	vertical-align: middle;
+}
+
+.bottom_logos img{
+	padding: 10px 15px 10px 15px;
+	vertical-align: middle;
+}
+
+@media (min-width: 480px) {
+	.img {
+		flex: wrap;
+	}
+	}
