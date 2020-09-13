@@ -35,8 +35,18 @@ h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 }
-
-button {
+input[type='checkbox'] {
+	/* we don't want to see the checkboxes, just the labels */
+	/* this is quite a common pattern for styling forms */
+	display: none;
+}
+input:checked + label {
+	/* this selector gets any label which immediately follows a checked checkbox */
+	background-color: #4dbff7;
+	color: white;
+}
+label {
+	display: inline-block;
 	font-size: 1.0rem;
 	font-family: 'Montserrat', sans-serif;
 	border: none;
